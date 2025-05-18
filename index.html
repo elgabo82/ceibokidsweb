@@ -10,7 +10,7 @@
 <body>
   <!-- Header / Banner Parallax -->
   <header class="parallax-header">
-    <div class="overlay">
+    <div class="overlay text-center">
       <h1 class="display-4 text-white">Bienvenidos a CeiboKids</h1>
       <p class="lead text-white">Aprendizaje y diversión para los más pequeños</p>
     </div>
@@ -20,7 +20,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="asstes/logo.jpg" alt="CeiboKids Logo" width="40" height="40" class="d-inline-block align-text-top me-2">
+        <img src="assets/Logo.jpg" alt="CeiboKids Logo" width="40" height="40" class="d-inline-block align-text-top me-2">
         <span>CeiboKids</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -47,25 +47,85 @@
     </div>
   </section>
 
-  <!-- Parallax Image Section -->
-  <section class="parallax-section" style="background-image: url('Docentes.jpg')">
+  <!-- Programs Section -->
+  <section id="programs" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Programas</h2>
+      <div class="row g-4">
+        <!-- Programa 1 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="assets/estimulacion.jpg" class="card-img-top" alt="Estimulación Temprana">
+            <div class="card-body">
+              <h5 class="card-title">Estimulación Temprana</h5>
+              <p class="card-text">Actividades lúdicas para promover el desarrollo cognitivo y motriz.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Programa 2 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="assets/musica.jpg" class="card-img-top" alt="Música y Ritmo">
+            <div class="card-body">
+              <h5 class="card-title">Música y Ritmo</h5>
+              <p class="card-text">Talleres de música y expresión corporal.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Programa 3 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="assets/visitas.jpg" class="card-img-top" alt="Visitas Profesionales">
+            <div class="card-body">
+              <h5 class="card-title">Visitas Profesionales</h5>
+              <p class="card-text">Visitas profesionales para motivar el desarrollo personal, profesional y educativo.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Programa 4 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="assets/actividades1.jpg" class="card-img-top" alt="Actividades Académicas">
+            <div class="card-body">
+              <h5 class="card-title">Actividades académicas</h5>
+              <p class="card-text">Actividades educativas para fomentar el aprendizaje mediante el arte.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Programa 5 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="assets/excursiones1.jpg" class="card-img-top" alt="Excursiones Pedagógicas">
+            <div class="card-body">
+              <h5 class="card-title">Excursiones Pedagógicas</h5>
+              <p class="card-text">Actividades educativas en exteriores, para fomentar el trabajo en equipo, la exploración y la investigación.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Programa 6 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="assets/responsabilidad.jpg" class="card-img-top" alt="Responsabilidad Social">
+            <div class="card-body">
+              <h5 class="card-title">Responsabilidad Social</h5>
+              <p class="card-text">Actividades educativas con responsabilidad e identificación social.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Añade más programas según la información de Facebook -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax Image Section: Equipo Docente -->
+  <section class="parallax-section" style="background-image: url('assets/Docentes.jpg')">
     <div class="container text-center text-white py-5">
       <h2 class="fw-bold">Nuestro Equipo Docente</h2>
       <p>Educadores especializados comprometidos con el bienestar de sus hijos.</p>
     </div>
   </section>
 
-  <!-- Programs Section -->
-  <section id="programs" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="mb-4">Nuestros Programas</h2>
-      <div class="row g-4">
-        <!-- ... tarjetas de programa como antes ... -->
-      </div>
-    </div>
-  </section>
-
-  <!-- Parallax Image Section -->
+  <!-- Parallax Image Section: Participación Familiar -->
   <section class="parallax-section" style="background-image: url('Reunión.jpg')">
     <div class="container text-center text-white py-5">
       <h2 class="fw-bold">Participación Familiar</h2>
@@ -73,7 +133,59 @@
     </div>
   </section>
 
-  <!-- Gallery, Facebook Feed, Contact, Footer como antes -->
+  <!-- Gallery Section -->
+  <!--<section id="gallery" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Galería</h2>
+      <div class="row g-3">
+        <div class="col-sm-6 col-md-4"><img src="img/gallery1.jpg" class="img-fluid rounded" alt="Galería 1"></div>
+        <div class="col-sm-6 col-md-4"><img src="img/gallery2.jpg" class="img-fluid rounded" alt="Galería 2"></div>
+        <div class="col-sm-6 col-md-4"><img src="img/gallery3.jpg" class="img-fluid rounded" alt="Galería 3"></div>
+      </div>
+    </div>
+  </section>-->
+
+  <!-- Facebook Feed Section -->
+  <section id="facebook" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Últimas Noticias</h2>
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0"></script>
+      <div class="fb-page" data-href="https://www.facebook.com/ceibokids" data-tabs="timeline" data-width="" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/ceibokids" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ceibokids">CeiboKids</a></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Contáctanos</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p><strong>Dirección:</strong> KILOMETRO 3.5 VIA PORTOVIEJO - CRUCITA, Portoviejo, Ecuador</p>
+          <p><strong>Teléfono:</strong> +593 098 324 6682</p>
+          <p><strong>Email:</strong> info@ceibokids.edu.ec</p>
+          <div class="ratio ratio-16x9">
+            <!--<iframe src="https://www.google.com/maps/embed?..." allowfullscreen="" loading="lazy"></iframe>-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.188834720202!2d-80.46781792562493!3d-1.0177935353903724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902bed292ac811e3%3A0xcd229f30c50d9f6a!2sEscuela%20Privada%20CEIBO%20KIDS!5e0!3m2!1sen!2sus!4v1747606093371!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <!-- formulario -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white">
+    <div class="container text-center">
+      <p class="mb-0">© 2025 CeiboKids. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

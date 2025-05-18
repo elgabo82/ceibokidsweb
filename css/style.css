@@ -25,7 +25,7 @@
   background-size: cover;
 }
 
-/* Section text styling */
+/* Section overlay text box */
 .parallax-section .container {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 8px;
